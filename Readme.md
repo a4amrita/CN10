@@ -1,35 +1,35 @@
-# Run app 
+## Run app 
 
 npm install 
 node server.js
 
-# Test Application
+## Test Application
 
 http://localhost:7005
 
-## Docker 
+# Docker 
 
-# To Build Docker Image
+## To Build Docker Image
 
 docker build -t node-app .
 
-# To check docker image
+## To check docker image
 
 docker images
 
-# To run docker container
+## To run docker container
 
 docker run -p 7005:8081 node-app
 
-# Test application
+## Test application
 
 http://localhost:7005
 
-## Kubernetes
+# Kubernetes
 
-# Create deployment 
+## Create deployment 
 
 Kubectl apply -f kubernetes.yaml
 
-# Test application 
+## Test application 
 Kubectl get service
