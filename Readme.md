@@ -1,6 +1,7 @@
 ## Run app 
 
 npm install 
+
 node server.js
 
 ## Test Application
